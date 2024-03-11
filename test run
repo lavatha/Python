@@ -1,0 +1,47 @@
+''' # Step 1: Ask user for their income
+income = float(input("Enter your income: "))
+
+# Step 2: Ask user for their number of dependents
+dependents = int(input("Enter the number of dependents: "))
+
+# Step 3 to 10: Calculate tax based on income, dependents, and tax rates
+if income <= 32000:
+    tax_rate = 0.10
+elif income <= 64000:
+    tax_rate = 0.15
+else:
+    tax_rate = 0.25
+
+deduction = 10000 + 2000 * dependents
+taxable_income = income - deduction
+
+# Ensure taxable income is non-negative
+taxable_income = max(0, taxable_income)
+
+total_tax = taxable_income * tax_rate
+
+# Step 11: Print the result
+print("The total tax is:", total_tax) '''
+
+def calculate_income_tax(income, num_dependents):
+    if income <= 32000:
+        tax_rate = 0.10
+    elif income <= 64000:
+        tax_rate = 0.15
+    else:
+        tax_rate = 0.25
+
+    deduction = 10000 + 2000 * num_dependents
+    taxable_income = income - deduction
+
+    if taxable_income <= 0:
+        total_tax = 0
+    else:
+        total_tax = taxable_income * tax_rate
+
+    return total_tax
+
+income = float(input("Enter your income: "))
+num_dependents = int(input("Enter the number of dependents: "))
+total_tax = calculate_income_tax(income, num_dependents)
+print("Total Tax:", total_tax)
