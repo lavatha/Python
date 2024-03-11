@@ -1,6 +1,5 @@
 '''
 Name: Lavatharini
-Student ID: 153494232
 Description: Lab 1 Question 1 (lab1a.py)
 '''
 
