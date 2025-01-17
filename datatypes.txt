@@ -1,8 +1,0 @@
-What datatype (string/integer/float) will you use for the following:
-
-1. The student’s name? string
-2. The number of students in a class? interger
-3. The student’s grade (as a percent)? float
-4. The student’s nine-digit ID number? string
-5. The total amount of tuitions paid by the student (in Canadian dollars)? float
-
