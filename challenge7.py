@@ -1,7 +1,6 @@
 '''
 Name: Lavatharini
-Student ID: 153494232
-Description: Lab 5 challenge Question 1 (challenge7.py)
+Description: Lab 5 challenge Question 1
 '''
 
 import csv
