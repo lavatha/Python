@@ -1,7 +1,6 @@
 '''
 Name: Lavatharini
-Student ID: 153494232
-Description: Lab 4 Question (challenge6.py)
+Description: Lab 4 Question
 '''
 
 
